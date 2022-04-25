@@ -1,0 +1,52 @@
+// Controller/ Folder
+//     UserController// File
+//         Login // Endpoints
+//         Add a User/Endpoints
+//         Update a User
+//         Delete a User
+
+//     BlogController// File   
+//         Add a blog item // endpoint   C reate
+//         Get All Blog Item // Endpoint R ead
+//         GetBlogItemByUserId
+//         GetBlogItemByCategory 
+//         GetBlogItemByTags
+//         GetBlogItemByDate
+//         GetPublishItem
+      
+//         Update Blog item //Enpoints   U pdate
+//         Delete Blog item //Enpoints    D elete
+//             Will be used for all of our editing as well as publishing 
+
+// Models/Folder
+//     UserModel 
+//         int ID 
+//         string Username
+//         string Salt
+//         string Hash
+    
+//     BlogItemModel
+//         int ID 
+//         int UserId
+//         string PublisherName
+//         string Title
+//         string Image
+//         string Description
+//         string Date
+//         string Category
+//         string Tags
+//         bool IsPublished
+//         bool isDeleted
+// ------Items saved to DB^----------------------
+
+//     LoginModel 
+//         string Username
+//         string Password
+//     CreateAccountModel
+//         int Id = 0
+//         string Username || Email
+//         string Password
+
+//     PasswordModel
+//         string Salt
+//         string Hash
